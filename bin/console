@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Inline Games - Telegram Bot (@inlinegameslbot)
+ *
+ * (c) 2021 Tharuk Renuja
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+use Bot\BotCore;
+
+/**
+ * Composer autoloader
+ */
+require_once __DIR__ . '/../vendor/autoload.php';
+
+/**
+ * Run console interface
+ */
+try {
+    $app = new BotCore();
+    $app->run();
+} catch (\Throwable $e) {
+    print $e;
+}
