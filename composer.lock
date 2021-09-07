@@ -156,7 +156,7 @@
                 "ext-json": "*",
                 "guzzlehttp/promises": "^1.0",
                 "guzzlehttp/psr7": "^1.6.1",
-                "php": ">=5.5",
+                "php": ">=8.0.9",
                 "symfony/polyfill-intl-idn": "^1.17.0"
             },
             "require-dev": {
